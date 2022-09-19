@@ -1,3 +1,3 @@
 # Personal Website
 
-Made with Svelte Kit.
+Built with [Svelte Kit](https://kit.svelte.dev/), styled with [Open Props](https://open-props.style/).
