@@ -1,10 +1,7 @@
 import postcssPresetEnv from 'postcss-preset-env';
-import postcssJitProps from 'postcss-jit-props';
-import OpenProps from 'open-props';
 
 export default {
 	plugins: [
-		postcssJitProps(OpenProps),
 		postcssPresetEnv({
 			stage: 1,
 			features: {

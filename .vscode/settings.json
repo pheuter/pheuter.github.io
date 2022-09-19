@@ -1,14 +1,25 @@
 {
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
 	"svelte.enable-ts-plugin": true,
 	"cssvar.extensions": ["css", "svelte"],
 	"cssvar.files": ["./node_modules/open-props/open-props.min.css", "src/**/*.css"],
 	"cssvar.ignore": [],
 	"yaml.schemas": {
 		"https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[markdown]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		},
+		"editor.formatOnSave": false
 	}
 }
