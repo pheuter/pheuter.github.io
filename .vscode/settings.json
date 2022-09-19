@@ -5,6 +5,9 @@
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
 	"svelte.enable-ts-plugin": true,
+	"cssvar.extensions": ["css", "svelte"],
+	"cssvar.files": ["./node_modules/open-props/open-props.min.css", "src/**/*.css"],
+	"cssvar.ignore": [],
 	"yaml.schemas": {
 		"https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
 	}
